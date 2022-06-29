@@ -1,0 +1,182 @@
+body{
+  font-family: "Montserrat";
+}
+
+
+h1{
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 6% 5% 0;
+}
+
+.tindogImage{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+
+
+
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.f-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.f-icon:hover {
+  color:#ff4c68;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonals */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.end{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+  padding: 8% 15% 4%;
+
+}
+
+.final-download-button{
+  margin: 0 1% 10%;
+}
+
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 8% 0 2%;
+}
+
+.contact-icons{
+  padding: 0 8px 20px;
+}
+
+
+/* If Screen Below 1028 Pixels */
+
+@media (max-width: 908px){
+  #title {
+    text-align: center;
+  }
+
+  .tindogImage{
+    position: static;
+    transform: rotate(0);
+  }
+}
